@@ -1,0 +1,27 @@
+.container {
+		position: relative;
+		height: 230px;
+		display: flex;
+		width: 400px;
+		margin: 0 auto;
+} 
+	
+.background {
+		background-image:url("https://i.ytimg.com/vi/civ5UEA9oLw/maxresdefault.jpg");
+		position:absolute;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		filter: blur(22px);
+		z-index:-1;
+		background-size: 2000px;
+}
+
+.image {
+		background-image: url("https://i.ytimg.com/vi/civ5UEA9oLw/maxresdefault.jpg");
+		background-size: 400px;
+		height: 200px;
+		width: inherit;
+		border-radius: 12px;
+}
